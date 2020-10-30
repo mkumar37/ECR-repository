@@ -1,0 +1,5 @@
+mkdir codedeploy-sample
+cd codedeploy-sample
+curl -O http://s3.amazonaws.com/aws-codedeploy-us-east-1/samples/latest/SampleApp_Linux.zip
+unzip SampleApp_Linux.zip
+rm SampleApp_Linux.zip
